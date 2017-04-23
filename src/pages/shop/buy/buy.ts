@@ -16,5 +16,7 @@ export class BuyPage {
   constructor(public navCtrl: NavController,public navParams: NavParams) {
     this.item = this.navParams.get('buyItem');
   }
-    
+    onBuyItems(){
+        this.navCtrl.popToRoot();
+    }
 }
