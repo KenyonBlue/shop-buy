@@ -10,7 +10,8 @@ import { NavController } from 'ionic-angular';
 
 export class BuyPage {
 
-    item: string = this.navParams.get('item');
+    
+    item: string;
     
     
   constructor(public navCtrl: NavController,public navParams: NavParams) {
